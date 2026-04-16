@@ -1,0 +1,46 @@
+/* styles.css - basic starter stylesheet */
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --accent: #0066cc;
+  --muted: #6b7280;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, Roboto, "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: #111827;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+button.primary {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(16,24,40,0.06);
+}
+
+.small-muted { color: var(--muted); font-size: 0.9rem; }
